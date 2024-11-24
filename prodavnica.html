@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VGS</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script lang="JavaScript" src="myScript.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="nav">
+        <nav>            
+            <a href="./index.html">Početna</a>
+            <a class="aktivna" href="./prodavnica.html">Prodavnica</a>
+            <a href="./vesti.html">Vesti</a>
+            <a href="./istorija.html">Istorija</a>
+            <a href="./kontakt.html">Kontakt</a>
+        </nav>
+    </div>
+</header>
+
+<div class="prodavnica">
+    
+    <div class="proizvod">
+        <img src="./assets/wow.jpg" alt="wow">
+        <h1>World of Warcraft</h1>
+        <p class="cena">5999.00</p>
+        <p>Poznata Blizzardova najuspesnija MMRPG igra!</p>
+        <p><button id="dugme">Dodaj u korpu</button></p>
+    </div>
+
+    <div class="proizvod">
+        <img src="./assets/fifa.jpg" alt="fifa">
+        <h1>FIFA 2023</h1>
+        <p class="cena">6700.00</p>
+        <p>Za ljubitelje fudbala i sportskih igara,poznati EA proizvod.</p>
+        <p><button id="dugme">Dodaj u korpu</button></p>
+    </div>
+
+    <div class="proizvod">
+        <img src="./assets/hearthstone.jpg" alt="hs">
+        <h1>Hearthstone</h1>
+        <p class="cena">2500.00</p>
+        <p>Sjajna kartaska igra za ljubitelje. Takodje Blizzardov proizvod.</p>
+        <p><button id="dugme">Dodaj u korpu</button></p>
+    </div>
+
+    <div class="prozivod">
+        <img src="./assets/aoe.jpg" alt="aoe">
+        <h1>Age of Empires III</h1>
+        <p class="cena">4000.00</p>
+        <p>Za Ljubitelje razlicitih strategija! Istorijska bitka koja vas vodi kroz razlicite vekove.</p>
+        <p><button id="dugme">Dodaj u korpu</button></p>
+    </div>
+
+    <div class="proizvod">
+        <img src="./assets/cod.jpg" alt="cod" width="40%">
+        <h1>Call of Duty</h1>
+        <p class="cena">4100.00</p>
+        <p>Ukoliko ste ljubitelj pucacina na pravom ste mestu.</p>
+        <p><button id="dugme">Dodaj u korpu</button></p>
+    </div>
+
+    <div class="fg">
+        <img src="./assets/fallguys.jpg" alt="fg">
+        <h1>Fall Guys</h1>
+        <p class="cena">1000.00</p>
+        <p>Komedija na nivou!</p>
+        <p><button id="dugme">Dodaj u korpu</button></p>
+    </div>
+
+<div>
+    <p style="color: green;">Na nasem sajtu mozete i proveriti validnost vaseg kljuca! <br>
+       Ukoliko zelite da proverite dovoljno je samo da unesete u polje ispod!
+    </p>
+    <h3>Proverite vas kljuc ovde: </h3>
+    <label for="provera">Unesite kljuc:</label>
+    <input type="text" id="provera" name="provera">
+    <button id="key" onclick="proveraKljuca()">Proveri</button>
+    <p id="ispisIspravnosti"></p>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<footer>
+    <div class="social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+    </div>
+</footer>
+    
+</body>
+</html>

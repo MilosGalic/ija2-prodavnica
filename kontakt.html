@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VGS</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+
+<header>
+    <div class="nav">
+        <nav>            
+            <a href="./index.html">Početna</a>
+            <a href="./prodavnica.html">Prodavnica</a>
+            <a href="./vesti.html">Vesti</a>
+            <a href="./istorija.html">Istorija</a>
+            <a class="aktivna" href="./kontakt.html">Kontakt</a>
+        </nav>
+    </div>
+</header>
+
+<div class="formaD">
+    
+    <form class="formaA" name="forma" method="post" onsubmit="proslediFormu(event)">
+    <h3>Vase ime:</h3>
+    <input type="text" name="ime">
+    <h3>Vase prezime:</h3>
+    <input type="text" name="prezime">
+    <h3>Vasa e-mail adresa:</h3>
+    <input type="email" name="email">
+    <input type="submit" value="Prosledi" class="prosledi">
+    </form>
+</div>
+    
+<div class="fromaA" id="ostaviUtisak"></div>
+    <input type="text" id="unesiUtisak">
+    <button onclick="ostaviUtisakN()">Ostavi utisak!</button>
+    
+
+
+    
+<div class="anim">
+    <p>HVALA NA POPNJENOJ ANKETI!</p>
+</div>
+<script lang="JavaScript" src="myScript.js"></script>
+</body>
+</html>
